@@ -1,0 +1,8 @@
+# Ansible roles needed for provisioning.
+- src: ANXS.mysql
+- src: nbz4live.php-fpm
+- src: pbuyle.drush
+- src: pbuyle.nginx
+- src: pbuyle.nginx-drupal
+- src: pbuyle.php-cli
+- src: kosssi.composer

@@ -1,0 +1,10 @@
+# IP address of the virtual machine
+network_ip: 192.168.9.10
+# Memory for the virtual machine
+memory: 512
+# The type of synced folder (see  https://docs.vagrantup.com/v2/synced-folders/basic_usage.html).
+synced_folder_type: nfs
+# Hostname of the virtual machine
+hostname: drupal.dev
+# Version of Drush to use
+drush_version = 6.*
